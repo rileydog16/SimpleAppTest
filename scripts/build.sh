@@ -1,7 +1,7 @@
 SCRIPT_DIR=$(dirname $0)
 PROJECT_DIR=$1
 OUTPUT_DIR=$2
-TOOLS_URL=http://localhost:1234
+TOOLS_URL=$3
 echo $SCRIPT_DIR
 echo $PROJECT_DIR
 echo $OUTPUT_DIR
