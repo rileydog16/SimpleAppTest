@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "license": "MIT",
+  "dependencies": {
+    "firebase-tools": "^11.22.0"
+  }
+}

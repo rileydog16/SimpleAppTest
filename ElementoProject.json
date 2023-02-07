@@ -46,27 +46,7 @@
               },
               "elements": []
             },
-            {
-              "id": "image_1",
-              "name": "Image 1",
-              "kind": "Image",
-              "properties": {
-                "src": "https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/pws/homepage-hero/6203-working-on-laptop-window-seat-933x400.jpg",
-                "display": true,
-                "width": 500,
-                "source": "https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/pws/homepage-hero/6203-working-on-laptop-window-seat-933x400.jpg"
-              },
-              "elements": []
-            },
-            {
-              "id": "image_2",
-              "name": "Image 2",
-              "kind": "Image",
-              "properties": {
-                "source": "fencepanels.jpg"
-              },
-              "elements": []
-            },
+
             {
               "id": "selectinput_1",
               "name": "Select Input 1",
