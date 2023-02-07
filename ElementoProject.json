@@ -21,7 +21,7 @@
               "name": "Text 1",
               "kind": "Text",
               "properties": {
-                "content": "Image test Two",
+                "content": "Simple Test Project",
                 "fontSize": 32,
                 "marginBottom": "1em"
               },
