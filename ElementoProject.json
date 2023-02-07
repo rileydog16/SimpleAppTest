@@ -1,0 +1,128 @@
+{
+  "id": "project_1",
+  "name": "Simple Test Project",
+  "kind": "Project",
+  "properties": {},
+  "elements": [
+    {
+      "id": "app1",
+      "name": "App One",
+      "kind": "App",
+      "properties": {},
+      "elements": [
+        {
+          "id": "page_1",
+          "name": "Main Page",
+          "kind": "Page",
+          "properties": {},
+          "elements": [
+            {
+              "id": "text_1",
+              "name": "Text 1",
+              "kind": "Text",
+              "properties": {
+                "content": "Image test Two",
+                "fontSize": 32,
+                "marginBottom": "1em"
+              },
+              "elements": []
+            },
+            {
+              "id": "textinput_1",
+              "name": "First Name",
+              "kind": "TextInput",
+              "properties": {
+                "initialValue": "aaaaaabb"
+              },
+              "elements": []
+            },
+            {
+              "id": "button_1",
+              "name": "Button the second",
+              "kind": "Button",
+              "properties": {
+                "content": "The second project (Two)",
+                "appearance": "outline"
+              },
+              "elements": []
+            },
+            {
+              "id": "image_1",
+              "name": "Image 1",
+              "kind": "Image",
+              "properties": {
+                "src": "https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/pws/homepage-hero/6203-working-on-laptop-window-seat-933x400.jpg",
+                "display": true,
+                "width": 500,
+                "source": "https://www.hsbc.co.uk/content/dam/hsbc/gb/messages/pws/homepage-hero/6203-working-on-laptop-window-seat-933x400.jpg"
+              },
+              "elements": []
+            },
+            {
+              "id": "image_2",
+              "name": "Image 2",
+              "kind": "Image",
+              "properties": {
+                "source": "fencepanels.jpg"
+              },
+              "elements": []
+            },
+            {
+              "id": "selectinput_1",
+              "name": "Select Input 1",
+              "kind": "SelectInput",
+              "properties": {
+                "values": [
+                  "red",
+                  "green",
+                  "blue"
+                ]
+              },
+              "elements": []
+            },
+            {
+              "id": "menu_1",
+              "name": "Menu 1",
+              "kind": "Menu",
+              "properties": {},
+              "elements": [
+                {
+                  "id": "menuitem_1",
+                  "name": "Menu Item 1",
+                  "kind": "MenuItem",
+                  "properties": {
+                    "label": "Big"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "menuitem_2",
+                  "name": "Menu Item 1 Copy",
+                  "kind": "MenuItem",
+                  "properties": {
+                    "label": "Small"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "_FILES",
+      "name": "Files",
+      "kind": "FileFolder",
+      "properties": {},
+      "elements": [
+        {
+          "id": "file_1",
+          "name": "fencepanels.jpg",
+          "kind": "File",
+          "properties": {}
+        }
+      ]
+    }
+  ]
+}
