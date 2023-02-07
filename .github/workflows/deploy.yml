@@ -10,6 +10,9 @@ jobs:
       - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
       - name: Check out repository code
         uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.4.0
       - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
       - run: echo "🖥️ The workflow is now ready to build your code on the runner."
       - run: ./scripts/build.sh $PWD $PWD/dist https://raw.githubusercontent.com/rileydog16/tools-release/main
