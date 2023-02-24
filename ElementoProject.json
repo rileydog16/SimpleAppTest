@@ -89,20 +89,7 @@
           ]
         }
       ]
-    },
-    {
-      "id": "_FILES",
-      "name": "Files",
-      "kind": "FileFolder",
-      "properties": {},
-      "elements": [
-        {
-          "id": "file_1",
-          "name": "fencepanels.jpg",
-          "kind": "File",
-          "properties": {}
-        }
-      ]
     }
+    
   ]
 }
